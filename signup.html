@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="mybody">
+<style>
+        h3{
+            font-family: "Abyssinica SIL";
+            font-weight: bold;
+            font-style: normal;
+            font-size: 30px;
+            color: blue;
+            text-align: center;
+            text-decoration: underline;
+        }
+        p{
+            color: chocolate;
+            font-size: 22px;
+            text-align: justify;
+        }
+        .school_motto{
+            color: red;
+        }
+        #school_vision{
+            color: black;
+        }
+        #para{
+            color: black;
+        }
+        nav{
+            background-color: chocolate;
+            text-align: right;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        button{
+            padding: 8px;
+            background-color: burlywood;
+            border-radius: 8px;
+        }
+        a{
+           margin-right: 20px;
+        }
+    </style>
+<nav>
+    <a href="index.html"><button>Home</button></a>
+    <a href="aboutus.html"><button>About Us</button></a>
+    <a href="contactus.html"><button>Contact Us</button></a>
+    <a href="gallery.html"><button>Gallery</button></a>
+    <a href="signup"><button>Sign Up</button></a>
+
+    <hr>
+</nav>
+<form action="" method="">
+    <fieldset>
+        <div class="form-group">
+            <label for="first name">FIRST NAME:</label>
+            <input type="text" name="first_name" id="first name" PLACEHOLDER="Enter first name">
+            <label for="last name">LAST NAME:</label>
+            <input type="text" name="last name" id="last name" PLACEHOLDER="Enter last name">:
+            <label for="middle name">MIDDLE NAME:</label>
+            <input type="text" name="middle name" id="MIDDLE NAME" PLACEHOLDER="Enter middle name">
+
+            <div class="form-inline">
+                <label>GENDER:</label>
+                <input type="radio" name="gender" id="male" value="MALE">
+                <label for="male">MALE</label>
+                <label>GENDER:</label>
+                <input type="radio" name="gender" id="female" value="FEMALE">
+                <label for="female">FEMALE</label>
+            </div>
+            <div class="form-inline">
+                <label>RESIDENCE:</label>
+                <input type="checkbox" name="residence" id="residence1" value="NAIROBI">
+                <label>NAIROBI</label>
+                <label>RESIDENCE:</label>
+                <input type="checkbox" name="residence" id="residence2" value="KIAMBU">
+                <label>KIAMBU</label>
+                <label>RESIDENCE:</label>
+                <input type="checkbox" name="residence" id="residence3" value="MOMBASA">
+                <label>MOMBASA</label>
+                </div>
+
+                <label >MARITAL STATUS:</label>
+            <select name="marital_status" id="marital_status">
+                <option value="married">MARRIED</option>
+                <option value="single">SINGLE</option>
+                <option value="divorced">DIVORCED</option>
+                <option value="complicated">COMPLICATED</option>
+                <option value="open">OPEN</option>
+            </select>
+        </div>
+        <input type="submit" value="submit">
+    </fieldset>
+</form>
+</body>
+</html>

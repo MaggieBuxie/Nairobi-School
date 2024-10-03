@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+        h3{
+            font-family: "Abyssinica SIL";
+            font-weight: bold;
+            font-style: normal;
+            font-size: 30px;
+            color: blue;
+            text-align: center;
+            text-decoration: underline;
+        }
+        p{
+            color: chocolate;
+            font-size: 22px;
+            text-align: justify;
+        }
+        .school_motto{
+            color: red;
+        }
+        #school_vision{
+            color: black;
+        }
+        #para{
+            color: black;
+        }
+        nav{
+            background-color: chocolate;
+            text-align: right;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        button{
+            padding: 8px;
+            background-color: burlywood;
+            border-radius: 8px;
+        }
+        a{
+           margin-right: 20px;
+        }
+         nav{
+            background-color: chocolate;
+            text-align: right;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        button{
+            padding: 8px;
+            background-color: burlywood;
+            border-radius: 8px;
+        }
+        a{
+           margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="index.html"><button>Home</button></a>
+    <a href="aboutus.html"><button>About Us</button></a>
+    <a href="#"><button>Contact Us</button></a>
+    <a href="gallery.html"><button>Gallery</button></a>
+    <a href="signup.html"><button>Sign Up</button></a>
+
+    <hr>
+</nav>
+</body>
+</html>
